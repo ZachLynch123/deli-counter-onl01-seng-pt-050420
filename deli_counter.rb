@@ -6,7 +6,7 @@ def line(array)
     return puts "The line is currently empty."
   else 
     phrase = "The line is currently: "
-    array.each_with_index |person, index| do
+    array.each_with_index do |person, index|
       phrase + "#{index}. #{person} "
   end
   return phrase
