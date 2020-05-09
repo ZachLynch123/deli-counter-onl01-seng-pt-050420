@@ -7,7 +7,7 @@ def line(array)
   else 
     phrase = "The line is currently: "
     array.each_with_index do |person, index|
-      phrase + "#{index}. #{person} "
+      phrase += "#{index}. #{person} "
     end
   end
   puts phrase
