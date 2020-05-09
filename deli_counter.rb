@@ -4,6 +4,11 @@ katz_deli = []
 def line(array)
   if array.size == 0 
     return puts "The line is currently empty."
+  else
+    x = ""
+    array.each_with_index |person, index| do
+      array.join("#{index}. #{person} ")
+      
 end
 
 def take_a_number(array, person)
