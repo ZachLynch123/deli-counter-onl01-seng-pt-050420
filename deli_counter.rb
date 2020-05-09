@@ -8,6 +8,7 @@ def line(array)
     phrase = "The line is currently: "
     array.each_with_index do |person, index|
       phrase + "#{index}. #{person} "
+    end
   end
   return phrase
 end
