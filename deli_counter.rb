@@ -8,6 +8,7 @@ end
 
 def take_a_number(array, person)
   array << person
+  puts "Welcome, #{person}. You are number #{array.size} in line."
   return array
 end
 
@@ -16,5 +17,7 @@ def now_serving(array)
     return puts "There is nobody waiting to be served!"
   else
     puts "Currently serving #{array[0]}."
-    array.shift
+    array.shift()
+  end
+end
   
