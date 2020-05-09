@@ -10,6 +10,7 @@ def line(array)
       phrase + "#{index}. #{person} "
     end
   end
+  puts phrase
   return phrase
 end
 
